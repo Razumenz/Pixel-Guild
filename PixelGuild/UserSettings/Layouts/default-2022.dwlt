@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 48
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,7 +300,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -308,16 +308,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Git\Pixel-Guild\PixelGuild
+  m_LastProjectPath: C:\Users\Fialka\Documents\GitHub\Pixel-Guild\PixelGuild
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c410000
-    m_LastClickedID: 16652
-    m_ExpandedIDs: 00000000
+    m_SelectedIDs: 68610000
+    m_LastClickedID: 24936
+    m_ExpandedIDs: 000000005861000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -345,7 +345,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000058610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,9 +438,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 68610000
       m_LastClickedID: 0
-      m_ExpandedIDs: 20d3feff
+      m_ExpandedIDs: fefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -801,7 +801,7 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 948, y: 477}
+      snapOffset: {x: 948, y: 472}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     x: 164
     y: 73
     width: 1252
-    height: 612
+    height: 607
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1082,22 +1082,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1252
-      height: 591
-    m_Scale: {x: 0.5472222, y: 0.5472222}
-    m_Translation: {x: 626, y: 295.5}
+      height: 586
+    m_Scale: {x: 0.5425926, y: 0.5425926}
+    m_Translation: {x: 625.99994, y: 293}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1143.9595
+      x: -1153.7201
       y: -540
-      width: 2287.919
+      width: 2307.4402
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.5472222
-  m_LastWindowPixelSize: {x: 1252, y: 612}
+  m_defaultScale: 0.5425926
+  m_LastWindowPixelSize: {x: 1252, y: 607}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
