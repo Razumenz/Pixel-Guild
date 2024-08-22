@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\heroes\\scripts\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\heroes\\scripts\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\characters\\scripts\\heromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\characters\\scripts\\heromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\heroes\\scripts\\charactersdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\heroes\\scripts\\charactersdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\characters\\scripts\\herodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\characters\\scripts\\herodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\assets\\heroes\\scripts\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\heroes\\scripts\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\characters\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\characters\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CharacterManager.cs",
-              "DocumentMoniker": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Heroes\\Scripts\\CharacterManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Heroes\\Scripts\\CharacterManager.cs",
-              "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Heroes\\Scripts\\CharacterManager.cs",
-              "RelativeToolTip": "Assets\\Heroes\\Scripts\\CharacterManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBwAAAAAAAAA",
+              "Title": "HeroManager.cs",
+              "DocumentMoniker": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\HeroManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Characters\\Scripts\\HeroManager.cs",
+              "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\HeroManager.cs",
+              "RelativeToolTip": "Assets\\Characters\\Scripts\\HeroManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T13:00:33.309Z",
+              "WhenOpened": "2024-08-22T11:09:23.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CharactersDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Heroes\\Scripts\\CharactersDatabase.cs",
-              "RelativeDocumentMoniker": "Assets\\Heroes\\Scripts\\CharactersDatabase.cs",
-              "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Heroes\\Scripts\\CharactersDatabase.cs",
-              "RelativeToolTip": "Assets\\Heroes\\Scripts\\CharactersDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Title": "HeroData.cs",
+              "DocumentMoniker": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\HeroData.cs",
+              "RelativeDocumentMoniker": "Assets\\Characters\\Scripts\\HeroData.cs",
+              "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\HeroData.cs",
+              "RelativeToolTip": "Assets\\Characters\\Scripts\\HeroData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T12:55:22.737Z",
+              "WhenOpened": "2024-08-22T10:24:23.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Characters.cs",
-              "DocumentMoniker": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Heroes\\Scripts\\Characters.cs",
-              "RelativeDocumentMoniker": "Assets\\Heroes\\Scripts\\Characters.cs",
-              "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Heroes\\Scripts\\Characters.cs",
-              "RelativeToolTip": "Assets\\Heroes\\Scripts\\Characters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Title": "Hero.cs",
+              "DocumentMoniker": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\Hero.cs",
+              "RelativeDocumentMoniker": "Assets\\Characters\\Scripts\\Hero.cs",
+              "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\Hero.cs",
+              "RelativeToolTip": "Assets\\Characters\\Scripts\\Hero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T12:54:11.826Z"
+              "WhenOpened": "2024-08-22T10:23:35.974Z",
+              "EditorCaption": ""
             }
           ]
         }
