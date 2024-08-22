@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq; // Добавлено для использования LINQ
 
 public class HeroManager : MonoBehaviour
 {
@@ -14,9 +15,11 @@ public class HeroManager : MonoBehaviour
     {
         if (allHeroes.Count > 0)
         {
-            // Выбираем случайного героя из списка доступных
-            int randomIndex = Random.Range(0, allHeroes.Count);
-            HeroData heroData = allHeroes[randomIndex];
+            // Сортируем список доступных героев по имени
+            allHeroes = allHeroes.OrderBy(hero => hero.Name).ToList();
+
+            // Выбираем героя с первым именем в алфавитном порядке
+            HeroData heroData = allHeroes[0];
 
             // Создаем новый экземпляр героя и добавляем его в список завербованных
             Hero newHero = new Hero(heroData.Name, heroData.rank, heroData.energy, heroData.level);
@@ -30,11 +33,11 @@ public class HeroManager : MonoBehaviour
             newHeroItem.transform.Find("HeroLevelText").GetComponent<Text>().text = "Level: " + newHero.Level;
 
             // Удаляем этого героя из списка доступных для вербовки
-            allHeroes.RemoveAt(randomIndex);
+            allHeroes.RemoveAt(0);
         }
         else
         {
-            Debug.Log("No more heroes to recruit." + allHeroes.Count);
+            Debug.Log("No more heroes to recruit.");
         }
     }
 }
