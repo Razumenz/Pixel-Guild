@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 1376338628}
   - component: {fileID: 1376338627}
   - component: {fileID: 1376338626}
-  - component: {fileID: 1376338625}
+  - component: {fileID: 1376338629}
   m_Layer: 5
   m_Name: CharacterButton
   m_TagString: Untagged
@@ -961,18 +961,6 @@ RectTransform:
   m_AnchoredPosition: {x: -19.76, y: -0.62}
   m_SizeDelta: {x: 4.4941, y: 4.2403}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1376338625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376338623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdfc3a47d4394c343b7c65cbb567d8d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1376338626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1017,9 +1005,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1376338625}
-        m_TargetAssemblyTypeName: CharacterListButton, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 1376338629}
+        m_TargetAssemblyTypeName: LoadSceneCharacters, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1067,6 +1055,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376338623}
   m_CullTransparentMesh: 1
+--- !u!114 &1376338629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376338623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51cbc7e4d3b79d4cb8f5959df884436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1565122835
 GameObject:
   m_ObjectHideFlags: 0
