@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7aad5777622d74d8fc45d192606ff4, type: 3}
   m_Name: Hero_Sword
   m_EditorClassIdentifier: 
-  heroName: "\u041C\u0430\u0441\u0442\u0435\u0440 \u041C\u0435\u0447\u0430"
+  Name: "\u0421\u0432\u043E\u0440\u0434"
   rank: A
   energy: 100
   level: 1

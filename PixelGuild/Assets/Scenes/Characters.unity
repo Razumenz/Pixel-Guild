@@ -447,9 +447,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ffb7a414397d94694f0143d8d05c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heroListContainer: {fileID: 0}
-  heroListItemPrefab: {fileID: 0}
-  allHeroes: []
+  heroListContainer: {fileID: 188184141}
+  heroListItemPrefab: {fileID: 3276263471409245548, guid: 3458af72bf6a96f4bb4cc33042a5d6c9, type: 3}
+  allHeroes:
+  - {fileID: 11400000, guid: 5a276de07123cab4888253a20685321a, type: 2}
+  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
+  - {fileID: 11400000, guid: 0332178ad3eacbd4c95c08383f350323, type: 2}
   recruitedHeroes: []
 --- !u!114 &1103747585
 MonoBehaviour:
@@ -716,57 +719,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631375731}
   m_CullTransparentMesh: 1
---- !u!1 &1923998331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1923998333}
-  - component: {fileID: 1923998334}
-  m_Layer: 0
-  m_Name: HeroManagerObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1923998333
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923998331}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1098433, y: -0.17918086, z: 1187.1005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1923998334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923998331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ffb7a414397d94694f0143d8d05c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  heroListContainer: {fileID: 188184141}
-  heroListItemPrefab: {fileID: 3276263471409245548, guid: 3458af72bf6a96f4bb4cc33042a5d6c9, type: 3}
-  allHeroes:
-  - {fileID: 11400000, guid: 5a276de07123cab4888253a20685321a, type: 2}
-  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
-  - {fileID: 11400000, guid: 0332178ad3eacbd4c95c08383f350323, type: 2}
-  recruitedHeroes: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -774,4 +726,3 @@ SceneRoots:
   - {fileID: 1273091196}
   - {fileID: 287580052}
   - {fileID: 370471790}
-  - {fileID: 1923998333}

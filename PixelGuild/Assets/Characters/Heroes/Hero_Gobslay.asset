@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7aad5777622d74d8fc45d192606ff4, type: 3}
   m_Name: Hero_Gobslay
   m_EditorClassIdentifier: 
-  heroName: Goblin Slayer
+  Name: "\u0413\u043E\u0431\u0441\u043B\u044D\u0439"
   rank: A
   energy: 100
   level: 1

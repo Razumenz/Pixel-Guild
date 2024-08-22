@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7aad5777622d74d8fc45d192606ff4, type: 3}
   m_Name: Hero_Berserk
   m_EditorClassIdentifier: 
-  heroName: Guts
+  Name: "\u0411\u0435\u0440\u0441\u0435\u0440\u043A"
   rank: S
   energy: 100
   level: 1
