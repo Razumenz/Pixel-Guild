@@ -864,7 +864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 188184141}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -1015,7 +1015,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0332178ad3eacbd4c95c08383f350323, type: 2}
   - {fileID: 11400000, guid: 7dd3950d33316934f8477349d1f6d211, type: 2}
   - {fileID: 11400000, guid: e66ff83394aa51a45834bddaed0e32ee, type: 2}
-  recruitedHeroes: []
 --- !u!114 &1103747585
 MonoBehaviour:
   m_ObjectHideFlags: 0
