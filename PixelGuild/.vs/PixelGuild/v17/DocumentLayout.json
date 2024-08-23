@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\characters\\scripts\\heromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\characters\\scripts\\herodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\assets\\characters\\scripts\\herodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\characters\\scripts\\herodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|c:\\users\\pasha\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pixel-guild\\pixelguild\\assets\\characters\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\assets\\characters\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F74ED57B-D663-E4F2-C683-D31C03E016F8}|Assembly-CSharp.csproj|solutionrelative:assets\\characters\\scripts\\hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Characters\\Scripts\\HeroManager.cs",
               "ToolTip": "C:\\Users\\pasha\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pixel-Guild\\PixelGuild\\Assets\\Characters\\Scripts\\HeroManager.cs",
               "RelativeToolTip": "Assets\\Characters\\Scripts\\HeroManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T11:09:23.914Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Characters\\Scripts\\HeroData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:24:23.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T10:24:23.778Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Assets\\Characters\\Scripts\\Hero.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:23:35.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T10:23:35.974Z"
             }
           ]
         }
