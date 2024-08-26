@@ -1,43 +1,66 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Linq; // Добавлено для использования LINQ
+using UnityEngine.SceneManagement;
 
 public class AllHeroManager : MonoBehaviour
 {
-    public Transform heroListContainer; // Контейнер для списка героев
-    public GameObject heroListItemPrefab; // Префаб элемента списка героя
-    public List<HeroData> allHeroes = new List<HeroData>(); // Список всех доступных героев
-    public List<Hero> recruitedHeroes = new List<Hero>(); // Список завербованных героев
+    public Transform heroListContainer;
+    public GameObject heroListItemPrefab;
+    public List<HeroData> allHeroes = new List<HeroData>();
+    public Button recruitButton;
+    private HeroData selectedHero;
 
-    // Метод вербовки героя
-    public void RecruitHero()
+    void Start()
     {
-        if (allHeroes.Count > 0)
+        recruitButton.interactable = false; // Деактивируем кнопку "Завербовать" по умолчанию
+        PopulateHeroList();
+    }
+
+    void PopulateHeroList()
+    {
+        foreach (HeroData heroData in allHeroes)
         {
-            // Сортируем список доступных героев по имени
-            allHeroes = allHeroes.OrderBy(hero => hero.Name).ToList();
-
-            // Выбираем героя с первым именем в алфавитном порядке
-            HeroData heroData = allHeroes[0];
-
-            // Создаем новый экземпляр героя и добавляем его в список завербованных
-            Hero newHero = new Hero(heroData.Name, heroData.rank, heroData.energy, heroData.level);
-            recruitedHeroes.Add(newHero);
-
-            // Создаем новый элемент списка
             GameObject newHeroItem = Instantiate(heroListItemPrefab, heroListContainer);
-            newHeroItem.transform.Find("HeroNameText").GetComponent<Text>().text = newHero.Name;
-            newHeroItem.transform.Find("HeroRankText").GetComponent<Text>().text = newHero.Rank;
-            newHeroItem.transform.Find("HeroEnergyText").GetComponent<Text>().text = "Energy: " + newHero.Energy;
-            newHeroItem.transform.Find("HeroLevelText").GetComponent<Text>().text = "Level: " + newHero.Level;
+            newHeroItem.transform.Find("HeroNameText").GetComponent<Text>().text = heroData.Name;
+            newHeroItem.transform.Find("HeroRankText").GetComponent<Text>().text = heroData.rank;
+            newHeroItem.transform.Find("HeroEnergyText").GetComponent<Text>().text = "Energy: " + heroData.energy;
+            newHeroItem.transform.Find("HeroLevelText").GetComponent<Text>().text = "Level: " + heroData.level;
 
-            // Удаляем этого героя из списка доступных для вербовки
-            allHeroes.RemoveAt(0);
-        }
-        else
-        {
-            Debug.Log("No more heroes to recruit.");
+            newHeroItem.GetComponent<Button>().onClick.AddListener(() => OnHeroSelected(heroData));
         }
     }
+
+    void OnHeroSelected(HeroData heroData)
+    {
+        selectedHero = heroData;
+        recruitButton.interactable = true;
+    }
+
+    public void RecruitHero()
+    {
+        if (selectedHero != null)
+        {
+            // Получаем текущий список завербованных героев
+            string recruitedHeroesJson = PlayerPrefs.GetString("RecruitedHeroes", "[]");
+            ListWrapper<HeroData> recruitedHeroesWrapper = JsonUtility.FromJson<ListWrapper<HeroData>>(recruitedHeroesJson);
+
+            // Добавляем нового завербованного героя в список
+            recruitedHeroesWrapper.list.Add(selectedHero);
+
+            // Сохраняем обновленный список
+            PlayerPrefs.SetString("RecruitedHeroes", JsonUtility.ToJson(recruitedHeroesWrapper));
+            PlayerPrefs.Save();
+
+            // Перезагружаем сцену или обновляем интерфейс
+            // SceneManager.LoadScene("RecruitedHeroesScene");
+        }
+    }
+}
+
+// Обертка для списка, необходимая для сериализации
+[System.Serializable]
+public class ListWrapper<T>
+{
+    public List<T> list = new List<T>();
 }

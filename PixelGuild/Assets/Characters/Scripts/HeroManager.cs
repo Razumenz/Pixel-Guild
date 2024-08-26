@@ -2,23 +2,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HeroManager : MonoBehaviour
+public class RecruitedHeroesManager : MonoBehaviour
 {
-    public Transform heroListContainer; // Контейнер для списка героев
-    public GameObject heroListItemPrefab; // Префаб элемента списка героя
-    public List<HeroData> allHeroes = new List<HeroData>(); // Список всех доступных героев
+    public Transform recruitedHeroListContainer;
+    public GameObject heroListItemPrefab;
 
     void Start()
     {
-        PopulateHeroList();
+        PopulateRecruitedHeroList();
     }
 
-    void PopulateHeroList()
+    void PopulateRecruitedHeroList()
     {
-        foreach (HeroData heroData in allHeroes)
+        string recruitedHeroesJson = PlayerPrefs.GetString("RecruitedHeroes", "[]");
+        ListWrapper<HeroData> recruitedHeroesWrapper = JsonUtility.FromJson<ListWrapper<HeroData>>(recruitedHeroesJson);
+
+        foreach (HeroData heroData in recruitedHeroesWrapper.list)
         {
-            // Создаем новый элемент списка для каждого героя
-            GameObject newHeroItem = Instantiate(heroListItemPrefab, heroListContainer);
+            GameObject newHeroItem = Instantiate(heroListItemPrefab, recruitedHeroListContainer);
             newHeroItem.transform.Find("HeroNameText").GetComponent<Text>().text = heroData.Name;
             newHeroItem.transform.Find("HeroRankText").GetComponent<Text>().text = heroData.rank;
             newHeroItem.transform.Find("HeroEnergyText").GetComponent<Text>().text = "Energy: " + heroData.energy;

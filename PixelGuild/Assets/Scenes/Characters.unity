@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 188184145}
   - component: {fileID: 188184146}
   m_Layer: 5
-  m_Name: heroListContainer
+  m_Name: RecruitedHeroListContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,7 +1041,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1103747588}
         m_TargetAssemblyTypeName: LoadSceneAllCharacters, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1427,15 +1427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ffb7a414397d94694f0143d8d05c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heroListContainer: {fileID: 188184141}
+  recruitedHeroListContainer: {fileID: 188184141}
   heroListItemPrefab: {fileID: 3276263471409245548, guid: 3458af72bf6a96f4bb4cc33042a5d6c9, type: 3}
-  allHeroes:
-  - {fileID: 11400000, guid: 5a276de07123cab4888253a20685321a, type: 2}
-  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
-  - {fileID: 11400000, guid: 0332178ad3eacbd4c95c08383f350323, type: 2}
-  - {fileID: 11400000, guid: 7dd3950d33316934f8477349d1f6d211, type: 2}
-  - {fileID: 11400000, guid: e66ff83394aa51a45834bddaed0e32ee, type: 2}
-  - {fileID: 11400000, guid: 1362502acc2ddb842a9883829936ac60, type: 2}
 --- !u!4 &1885965264
 Transform:
   m_ObjectHideFlags: 0
