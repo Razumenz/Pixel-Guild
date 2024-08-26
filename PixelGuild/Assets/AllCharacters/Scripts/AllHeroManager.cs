@@ -22,20 +22,25 @@ public class AllHeroManager : MonoBehaviour
         foreach (HeroData heroData in allHeroes)
         {
             GameObject newHeroItem = Instantiate(heroListItemPrefab, heroListContainer);
-            newHeroItem.transform.Find("HeroNameText").GetComponent<Text>().text = heroData.Name;
-            newHeroItem.transform.Find("HeroRankText").GetComponent<Text>().text = heroData.rank;
-            newHeroItem.transform.Find("HeroEnergyText").GetComponent<Text>().text = "Energy: " + heroData.energy;
-            newHeroItem.transform.Find("HeroLevelText").GetComponent<Text>().text = "Level: " + heroData.level;
 
-            newHeroItem.GetComponent<Button>().onClick.AddListener(() => OnHeroSelected(heroData));
+            HeroListItem item = newHeroItem.GetComponent<HeroListItem>();
+            if (item != null)
+            {
+                item.Setup(heroData);
+            }
+            else
+            {
+                Debug.LogError("HeroListItem component is missing on the prefab.");
+            }
         }
     }
 
-    void OnHeroSelected(HeroData heroData)
+    public void OnHeroSelected(HeroData heroData)
     {
         selectedHero = heroData;
         recruitButton.interactable = true;
     }
+
 
     public void RecruitHero()
     {
