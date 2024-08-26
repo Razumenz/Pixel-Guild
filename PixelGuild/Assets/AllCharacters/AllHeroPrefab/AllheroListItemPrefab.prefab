@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 8524348383931966454}
   - component: {fileID: 4276534147347207526}
   - component: {fileID: 3600696227390198552}
+  - component: {fileID: 7410868625782487264}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -169,7 +170,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7410868625782487264}
+        m_TargetAssemblyTypeName: HeroListItem, Assembly-CSharp
+        m_MethodName: OnItemClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7410868625782487264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907580848774390273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34966a5802cd14d48822a57b28e02c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2416359849022158435
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +286,7 @@ GameObject:
   - component: {fileID: 1284855140007847212}
   - component: {fileID: 5793134253404265285}
   - component: {fileID: 5361578570449998569}
+  - component: {fileID: 4245710082477300352}
   m_Layer: 5
   m_Name: AllheroListItemPrefab
   m_TagString: Untagged
@@ -330,6 +356,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4245710082477300352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3276263471409245548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34966a5802cd14d48822a57b28e02c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3396187800701511236
 GameObject:
   m_ObjectHideFlags: 0

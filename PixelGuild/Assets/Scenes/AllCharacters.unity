@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 418488364}
   - component: {fileID: 418488363}
   - component: {fileID: 418488367}
+  - component: {fileID: 418488368}
   m_Layer: 5
   m_Name: recruitButton
   m_TagString: Untagged
@@ -582,9 +583,22 @@ MonoBehaviour:
   allHeroes:
   - {fileID: 11400000, guid: 5a276de07123cab4888253a20685321a, type: 2}
   - {fileID: 11400000, guid: e66ff83394aa51a45834bddaed0e32ee, type: 2}
-  - {fileID: 11400000, guid: e66ff83394aa51a45834bddaed0e32ee, type: 2}
-  - {fileID: 11400000, guid: e66ff83394aa51a45834bddaed0e32ee, type: 2}
+  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
+  - {fileID: 11400000, guid: 0332178ad3eacbd4c95c08383f350323, type: 2}
+  - {fileID: 11400000, guid: 7dd3950d33316934f8477349d1f6d211, type: 2}
   recruitButton: {fileID: 418488363}
+--- !u!114 &418488368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418488362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34966a5802cd14d48822a57b28e02c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &603084052
 GameObject:
   m_ObjectHideFlags: 0
