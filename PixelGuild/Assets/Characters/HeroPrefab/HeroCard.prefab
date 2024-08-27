@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 5361578570449998569}
   - component: {fileID: 4245710082477300352}
   m_Layer: 5
-  m_Name: AllheroListItemPrefab
+  m_Name: HeroCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
