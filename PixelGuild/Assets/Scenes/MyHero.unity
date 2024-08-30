@@ -1424,18 +1424,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1885965262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ffb7a414397d94694f0143d8d05c05, type: 3}
+  m_Script: {fileID: 11500000, guid: 61ff5e53070856c4a888fa04aa8712f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   heroListContainer: {fileID: 188184141}
-  heroListItemPrefab: {fileID: 3276263471409245548, guid: 3458af72bf6a96f4bb4cc33042a5d6c9, type: 3}
+  heroListItemPrefab: {fileID: 3276263471409245548, guid: 113287bba538809498010039beccdea1, type: 3}
   allHeroes:
   - {fileID: 11400000, guid: 5a276de07123cab4888253a20685321a, type: 2}
-  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
-  - {fileID: 11400000, guid: 0332178ad3eacbd4c95c08383f350323, type: 2}
-  - {fileID: 11400000, guid: 7dd3950d33316934f8477349d1f6d211, type: 2}
   - {fileID: 11400000, guid: e66ff83394aa51a45834bddaed0e32ee, type: 2}
-  - {fileID: 11400000, guid: 1362502acc2ddb842a9883829936ac60, type: 2}
+  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
+  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
+  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
+  - {fileID: 11400000, guid: 393e565b769204e49aa9f6baa359ed19, type: 2}
 --- !u!4 &1885965264
 Transform:
   m_ObjectHideFlags: 0
