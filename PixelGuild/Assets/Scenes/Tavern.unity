@@ -1122,8 +1122,9 @@ GameObject:
   - component: {fileID: 633303278}
   - component: {fileID: 633303282}
   - component: {fileID: 633303281}
+  - component: {fileID: 633303284}
   - component: {fileID: 633303280}
-  - component: {fileID: 633303279}
+  - component: {fileID: 633303283}
   m_Layer: 5
   m_Name: ToReceptionButton
   m_TagString: Untagged
@@ -1150,18 +1151,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2533.4, y: 400.7}
   m_SizeDelta: {x: 130.13, y: 134.13}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &633303279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633303277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49a25c9790000df4fbb342b52993968f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &633303280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1206,8 +1195,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 633303279}
-        m_TargetAssemblyTypeName: LoadSceneReception, Assembly-CSharp
+      - m_Target: {fileID: 633303283}
+        m_TargetAssemblyTypeName: LoadNextScene, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
@@ -1256,6 +1245,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633303277}
   m_CullTransparentMesh: 1
+--- !u!114 &633303283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633303277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9fbe752397264d8336b87ba4c442f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Reception
+--- !u!114 &633303284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633303277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9fbe752397264d8336b87ba4c442f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Reseption
 --- !u!1 &734887697
 GameObject:
   m_ObjectHideFlags: 0

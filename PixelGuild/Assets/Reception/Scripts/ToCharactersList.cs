@@ -7,6 +7,6 @@ public class LoadSceneCharacters : MonoBehaviour
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("Characters");
+        SceneManager.LoadScene("HeroShop");
     }
 }
